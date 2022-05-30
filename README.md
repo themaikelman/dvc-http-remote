@@ -3,7 +3,7 @@
 This is a dvc http remote implementation.
 It is the "clean" code that we use as a remote for DVC and with which we can reproduce the issue https://github.com/iterative/dvc/issues/7564
 
-Can be used for local storage or azure storage (put proper credentials here->[pkg/storage/storageSiteLoader.go])
+Can be used for local storage or azure storage
 
 ## Examples
 
