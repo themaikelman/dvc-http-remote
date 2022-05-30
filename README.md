@@ -7,7 +7,7 @@ Can be used for local storage or azure storage
 
 ## Examples
 
-Start with a [simple example](example_simple/../README.md) and then you can go further with [the complex one](example_complex/README.md)
+Start with a [simple example](example_simple/) and then you can go further with [the complex one](example_complex/)
 
 dvc configuration sample
 
