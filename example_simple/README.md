@@ -4,7 +4,7 @@ git clone https://github.com/atekoa/dvc-http-remote.git
 cd dvc-http-remote
 docker-compose up -d --build --force-recreate remote
 
-cd dvc-http-remote/example
+cd example_simple/
 git init
 dvc init
 dvc remote add -d localhost http://localhost:8080/remote?remote=0
@@ -23,7 +23,7 @@ docker-compose up -d --build --force-recreate remote
 > Remember to set variables AZURE_STORAGE_URL/AZURE_CONNECTION_STRING in the server
 
 ```shell
-cd dvc-http-remote/example_simple
+cd example_simple/
 git init
 dvc init
 dvc remote add -d localhost http://localhost:8080/remote?remote=1
